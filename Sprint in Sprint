@@ -1,0 +1,172 @@
+3 start nine:9 three:3 control:list one:1 two:2 tempMove:0 const:0 seven:7 four:4 five:5 zero:0 container:0 moveTo:0 yesThen:0
+six:6 
+
+start:2 control one const
+loop:7 control val1
+4 val1:0 three execute3
+
+7 control val2
+4 val2:0 nine stop
+
+7 control val3
+4 val3:0 one execute1
+
+7 control val4
+4 val4:0 two execute2
+
+7 control val5
+4 val5:0 seven execute7
+
+7 control val6
+4 val6:0 four execute4
+
+7 control val7
+4 val7:0 five execute5
+
+7 control val8
+4 val8:0 zero execute0
+
+7 control val9
+4 val9:0 six execute6
+
+
+execute3:1 control one tempMove
+7 tempMove helper
+1 const helper:0  control
+3 loop
+
+
+execute1:1 control one tempMove
+7 tempMove addVal1
+1 const addVal1:0 add1
+
+1 tempMove one tempMove
+7 tempMove addVal2
+1 const addVal2:0 add2
+
+1 tempMove one tempMove
+7 tempMove addVal3
+1 const addVal3:0 addResult
+
+1 add1:0 add2:0 addResult:0
+
+1 tempMove one control
+3 loop
+
+execute2:1 control one tempMove
+7 tempMove subval1
+1 const subval1:0 sub1
+
+1 tempMove one tempMove
+7 tempMove subval2
+1 const subval2:0 sub2
+
+1 tempMove one tempMove
+7 tempMove subval3
+1 const subval3:0 subResult
+
+2 sub1:0 sub2:0 subResult:0
+
+1 tempMove one control
+3 loop
+
+execute7:1 control one tempMove
+7 tempMove copyVal1
+1 const copyVal1:0 copy1
+
+1 tempMove one tempMove
+7 tempMove copyVal2
+1 const copyVal2:0 copy2
+
+7 copy1:0 copy2:0
+
+1 tempMove one control 
+3 loop
+
+execute4:1 control one tempMove
+7 tempMove equalVal1
+1 const equalVal1:0 check1
+
+1 tempMove one tempMove
+7 tempMove equalVal2
+1 const equalVal2:0 check2
+
+1 tempMove one tempMove
+7 tempMove equalVal3
+1 const equalVal3:0 moveTo
+
+4 check1:0 check2:0 yes4Move
+
+1 tempMove one control 
+3 loop 
+
+yes4Move:7 moveTo control
+3 loop
+
+execute5:1 control one tempMove
+7 tempMove lessVal1
+1 const lessVal1:0 lessCheck1
+
+1 tempMove one tempMove
+7 tempMove lessVal2
+1 const lessVal2:0 lessCheck2
+
+1 tempMove one tempMove
+7 tempMove lessVal3
+1 const lessVal3:0 yesThen
+
+5 lessCheck1:0 lessCheck2:0 yes5Move 
+
+1 tempMove one control 
+3 loop 
+
+yes5Move:7 yesThen control
+3 loop
+
+execute0:1 control one tempMove
+7 tempMove zeroVal1
+7 zeroVal1:0 finalVal
+1 tempMove one tempMove
+7 tempMove zeroVal2
+1 const zeroVal2:0 cellNo
+
+0 finalVal:0 cellNo:0
+
+1 tempMove one control 
+3 loop 
+
+execute6:1 control one tempMove
+7 tempMove inputCell
+1 const inputCell:0 finalInput
+6 finalInput:0
+
+1 tempMove one control 
+3 loop 
+
+
+
+stop:9 
+list:3 3 6 6 9
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
