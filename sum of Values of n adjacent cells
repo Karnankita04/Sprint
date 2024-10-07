@@ -1,0 +1,13 @@
+3 start cellAd:37 numOfEl:5 one:1 count:0 result:0
+resultAd:100
+start:LOOP:4 count numOfEl process
+7 cellAd currCell
+1 currCell:0 result result
+1 cellAd one cellAd
+1 count one count
+3 LOOP
+
+process:7 resultAd finalCell
+7 result finalCell:0
+stop:9
+1 2 3 4 5
