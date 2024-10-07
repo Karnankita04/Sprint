@@ -1,0 +1,19 @@
+3 6 first_elLoc:54 length:3
+result:1 3 start one:1 x:0 y:0 count:0 two:2
+start:7 first_elLoc x
+2 length one count 
+1 first_elLoc count y
+loop:5 x y process
+7 two result
+stop:9
+process:7 x tempA
+7 y tempB
+4 tempA:0 tempB:0 continue
+3 stop 
+continue:1 x one x
+2 y one y
+3 loop
+
+1 2 1
+
+
