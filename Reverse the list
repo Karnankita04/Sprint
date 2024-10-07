@@ -1,0 +1,36 @@
+3 5 first_element:63 length:7 
+
+3 move
+
+one:1
+first:0
+last:0
+count:0
+x:0
+y:0
+move:7 first_element x
+2 length one count 
+1 first_element count y
+
+start:5 x y LOOP
+3 stop
+
+LOOP:7 x des
+7 des:0 temp
+
+7 y y1
+7 x x1
+7 y1:0 x1:0
+
+7 y des2
+7 temp des2:0
+
+
+1 x one x
+2 y one y
+3 start
+
+temp:0
+stop:9
+
+6 8 0 1 2 7 8
