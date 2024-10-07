@@ -1,0 +1,32 @@
+3 start 
+first:100 second:101
+
+result:0
+
+start:7 first tempx
+0 2 tempx:0
+
+7 second tempy
+0 1 tempy:0
+
+7 tempx newtemp
+7 newtemp:0 val2
+0 val2:0 result
+
+7 tempy anotemp
+5 result anotemp:0 move 
+
+stop:9
+
+move:7 tempy val
+7 val:0 newval
+0 newval:0 result
+3 stop
+
+
+
+
+
+
+
+
