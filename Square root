@@ -1,0 +1,14 @@
+3 5 10 result:0 3 move one:1 odd:1 two:2 zero:0 num:0
+
+move:7 3 num 
+4 num zero stop
+process:2 num odd num
+1 odd two odd
+5 num zero stop
+1 result one result 
+3 process
+stop:9
+
+
+
+
