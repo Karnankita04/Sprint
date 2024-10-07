@@ -1,0 +1,22 @@
+3 7 first_element:40 length:2 target:2 result:0
+
+3 move
+
+count:0
+one:1
+temp:0
+move:7 first_element temp
+start:7 temp 23
+4 count length stop
+4 23 target yes
+
+1 temp one temp
+
+1 count one count
+3 start
+
+yes:7 one result 
+stop:9
+
+2 3
+
