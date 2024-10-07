@@ -1,0 +1,16 @@
+3 start num:100 result:0
+count:0 ten:10 one:1
+temp:0 zero:0
+
+start:7 num temp
+conA:4 temp zero yesA
+conB:5 temp ten yesB
+2 temp ten temp
+1 count one count
+3 conB
+yesB:1 result temp result 
+7 count temp
+7 zero count
+3 conA
+yesA:9
+ 
